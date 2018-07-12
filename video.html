@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading1">html5 video</h1>
+
+
+    <video id="vid1" width="320" controls muted>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <br>
+
+    <button id="playbutton" onclick="clickMe()" >Play</button>
+    <button id="pausebutton" onclick="pauseMe()" >Pause</button>
+
+    <script>
+
+        var vidref = document.getElementById('vid1')
+        var playbtnref = document.getElementById('playbutton')
+        var pausebtnref = document.getElementById('pausebutton')
+
+
+        function clickMe(){
+            console.log("HERE")
+            vidref.play()
+            playbtnref.disabled = true
+            pausebtnref.removeAttribute('disabled')
+
+
+        }
+        function pauseMe(){
+            vidref.pause()
+            pausebtnref.disabled = true
+            playbtnref.removeAttribute('disabled')
+
+        }
+
+
+
+    </script>
+</body>
+</html>

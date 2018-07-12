@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 Drag and Drop</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="draganddrop.css">
+    <script src="draganddrop.js"></script>
+</head>
+<body>
+    <h1>Drag and Drop</h1>
+    <div id="dargStartDiv" 
+    ondragover="sourceDragOver(event)"
+    ondrop="sourceDrop(event)"
+    >
+        <img id="dragStart" src="logo.png" alt="HTML5 logo"
+         height="100px" draggable="true"
+         ondragstart="dragStartNow(event)"
+         >
+        </div>
+    <div id=dragStop
+    ondragover="dragOverNow(event)"
+    ondrop="dropNow(event)"
+    
+    ></div>
+    
+</body>
+</html>

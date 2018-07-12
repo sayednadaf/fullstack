@@ -1,0 +1,76 @@
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.allmenu{
+    list-style: none;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.eachmenu{
+    display: inline;
+    color: rgb(42, 32, 59);
+    font-size: 130%;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.eachmenu:hover{
+    color: goldenrod;
+    border-bottom: 1px solid goldenrod;
+    transition: all 0.3s ease-in;
+    padding-bottom: 3px;
+}
+
+
+header{
+    background-image: linear-gradient(to right, rgba(255,255,255,1),rgba(255,255,255,0)),url(back2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+.mainMessage{
+    top: 45%;
+    position: absolute;
+    color: black;
+    font-size: 200%;
+    margin-left: 5%;
+    
+    
+}
+
+.buttonContainer{
+    margin-top: 15px;
+}
+
+.button{
+    text-decoration: none;
+    margin-right: 15px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.button:hover{
+    color: goldenrod;
+    transition: all 0.3s ease-in;
+    background-color: antiquewhite;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+

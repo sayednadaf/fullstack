@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5 new form elements</title>
+</head>
+
+<body>
+    <h1>New Form Elements</h1>
+    <form>
+        <div>
+            <label>First Name</label>
+            <input type="text" placeholder="your first name only" required>
+        </div>
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" placeholder="your last name only">
+        </div>
+        <br>
+        <div>
+            <label>DoB</label>
+            <input type="date" placeholder="your date of birth">
+        </div>
+        <br>
+        <div>
+            <label>Email-Id</label>
+            <input type="email" placeholder="your email id">
+        </div>
+        <br>
+        <div>
+            <label>Telephone</label>
+            <input type="tel">
+        </div>
+        <br>
+        <div>
+            <label for="">Age</label>
+            <input type="number" min="18" max="60">
+        </div>
+        <br>
+        <div>
+            <label for="">Rate your skill in HTML5</label>
+            <input type="range" min="5" max="10">
+        </div>
+        <br>
+        <div>
+            <label for="">Book your date</label>
+            <input type="date" min="2018-07-02" step="7">
+        </div>
+        <br>
+        <div>
+            <label for="">Color</label>
+            <input type="color">
+        </div>
+        <br>
+        <div>
+            <label for="">Progress</label>
+            <progress value="10" max="100" min="0">
+        </div>
+        <br>
+        <div>
+            <label for="">Select the score</label>
+            <input type="number" list="score">
+            <datalist id="score">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+            </datalist>
+        </div>
+        <br>
+        <button onclick="">Submit</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+h1,p{
+    color: red
+}
+ul,li{
+    color: green
+}
+
+.mypara{
+    background-color: aquamarine;
+    text-shadow: 1px 1px grey;
+}
+
+a{
+    color: green;
+}
+
+a:hover{
+    color: brown;
+}
+
+a:visited{
+    color: blueviolet;
+}
